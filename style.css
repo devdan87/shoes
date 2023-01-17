@@ -1,0 +1,218 @@
+body{
+    margin: 0;
+    font-family:'Poppins-Black.ttf' ;
+}
+
+@font-face {
+    font-family:'Poppins-Black.ttf' ;
+    src: url(font/Poppins-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-ExtraLight.ttff';
+    src: url(font/Poppins-ExtraLight.ttf);
+}
+
+ul{
+    list-style: none;
+    position: relative;
+    top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    border: 3px blue solid;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    margin-right: 40px;
+}
+
+.container{
+    width:auto;
+}
+
+#banner{
+    width: 100%;
+}
+
+h1{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Poppins-ExtraLight.ttff';
+color: grey;
+}
+
+#shoes1, #shoes2, #shoes3, #shoes4{
+    width: 200px;
+    height: 300px;
+}
+
+.video{
+    width: 1250px;
+    height: 500px;
+    margin: auto;
+}
+
+
+
+
+
+#adi, #adi2{
+    width: 500px;
+    height: 300px;
+    margin-right: 10px;
+    margin-left: 10px;
+    flex-wrap: wrap;
+}
+
+button{
+    width: 300px;   
+    background-color: black;
+    color: white;
+    padding: 30px;
+    
+}
+
+.btn1{
+    display: flex;
+  
+   justify-content: center;
+}
+
+
+
+.btn2{
+    display: flex;
+   
+}
+
+.btn{
+    margin: auto;
+    width: 600px;
+}
+
+#bt1{
+    position: relative;
+    left: 100px;
+    margin-top: 30px;
+}
+
+#bt2{
+   position: relative; 
+   left: 100px;
+   margin-top: 30px;
+
+}
+
+.beforeEnd{
+    display: flex;
+}
+
+#vest, #wom{
+    width: 400px;
+    height: 450px;
+}
+
+.beforeEnd{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    justify-content: space-around;
+}
+
+.lastsec{
+    display: flex;
+    justify-content: center;
+}
+
+.ullast{
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    text-align: center;
+}
+
+footer{
+    border: 1px solid black;
+    background-color: black;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot{
+    color: white;
+    position: relative;
+    bottom: 15px;
+    font-size: 10px;
+}
+
+p{
+    color: white;
+}
+
+.video {
+    width: 100%;
+    max-width: 100%;
+    
+}
+
+.video video {
+    width: 100%;
+    max-width: 100%;
+    
+}
+
+
+@media all and (min-width: 320px) and (max-width:768px){
+    header{
+        width: 1000px;
+    }
+
+    #banner, footer{
+        width: 1005px;
+    }
+
+    .beforeEnd{
+        width: 1005px;
+    }
+
+    #sect1{
+        width: 1005px;
+    }
+
+  
+   .btn1{
+       flex-direction: column;
+       
+   }
+
+   #sect2{
+       margin-left: 75%;
+       
+   }
+
+  
+}
